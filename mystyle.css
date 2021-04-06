@@ -1,0 +1,110 @@
+body {
+    background: linear-gradient(-45deg, #845EC2, #C493FF, #FEFEDF, #00C9A7);
+    background-size: 400% 400%;
+    animation: gradient 5s ease infinite;
+    display: block;
+    overflow-x: hidden;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+nav ul {
+    margin: 0 auto;
+}
+
+nav ul li {
+    margin: auto 10px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.homeimg {
+    border-radius: 50%;
+    display: block;
+    margin: 50px auto;
+    height: 300px;
+    width: 300px;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    color: white;
+    text-shadow: 4px 4px #00C9A7;
+    font-size: 70px;
+}
+
+#aboutme {
+    text-align: center;
+    padding: 20px;
+}
+
+.aboutme {
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    object-fit: cover;
+}
+
+.skillsandcomp {
+    text-align: center;
+}
+
+.skillsandcomp ul li {
+    list-style-type: none;
+}
+
+.experience {
+    text-align: center;
+}
+
+.experience ul li {
+    list-style-type: none;
+}
+
+#portfoliowork {
+    text-align: center;
+    margin: 0 auto;
+}
+
+#contact {
+    text-align: left;
+    background-color: plum;
+    padding: 15px;
+}
+
+#contact h3 {
+    text-align: left;
+    color: white;
+    font-family: 'Playfair Display', serif;
+    font-size: 50px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.contactimg {
+    border-radius: 50%;
+    object-fit: cover;
+    height: 200px;
+    width: 200px;
+}
